@@ -1,4 +1,4 @@
-# Text Enrichment Pipeline (Lightweight NLP) | BY Hardik SINGH
+# Text Enrichment Pipeline (Lightweight NLP)
 
 ## Overview
 This project is a lightweight Natural Language Processing (NLP) pipeline designed to extract meaningful insights from unstructured text. It combines multiple NLP techniques to generate a structured and interpretable output in both JSON and HTML formats.
@@ -42,8 +42,8 @@ Named Entity Recognition (spaCy)
 Sentiment Analysis (VADER)
 │
 ▼
-Structured Output (JSON + HTML Report)`
-
+Structured Output (JSON + HTML Report)
+```
 ---
 
 ## Technologies Used
@@ -130,3 +130,33 @@ Includes:
     }
   }
 }
+```
+
+## Key Design Decisions
+Lightweight architecture for quick execution
+CLI-based interface for flexibility
+Modular functions for easy extension
+Automatic model handling (spaCy download if missing)
+Dual output format for both technical and business users
+
+---
+
+## Potential Improvements
+Add abstractive summarization (e.g., transformers)
+Multi-language support
+Topic modeling integration
+REST API deployment
+Real-time streaming input support
+
+---
+
+## Author
+Hardik Singh
+MSc Data Management & Artificial Intelligence
+
+---
+
+## Summary
+This project demonstrates how multiple NLP techniques can be combined into a single pipeline to transform raw text into actionable insights, making it valuable for both technical and business applications.
+
+---
